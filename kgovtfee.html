@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fee Input Form</title>
+    <!-- Add the Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body><br>
+    <br>
+    <br>
+    <center><button class="btn" style="background-color: green;"><a href="kgovtfee.html" target="f2" style="color:  white;">GOVT FEE PAYMENT</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class = "btn btn-primary" ><a href="knongovtfee.html" target="f2" style="color: white;">NON-GOVT FEE PAYMENT</a></button></center>
+    <div class="container">
+      <h1>Fee Input Form</h1>
+      <form>
+        <table class="table">
+          <tr> 
+            <td> 
+                Pin Number: 
+            </td> 
+            <td> 
+                <input type = "text" placeholder = "21202-cm-025"> 
+            </td> 
+        </tr> 
+          <tr>
+            <td><label for="admission-fee">Admission Fee:</label></td>
+            <td><input type="number" class="form-control" id="admission-fee" name="admission-fee"></td>
+          </tr>
+          <tr>
+            <td><label for="tuition-fee">Tuition Fee:</label></td>
+            <td><input type="number" class="form-control" id="tuition-fee" name="tuition-fee"></td>
+          </tr>
+          <tr>
+            <td><label for="fines">Fines:</label></td>
+            <td><input type="number" class="form-control" id="fines" name="fines"></td>
+          </tr> 
+          <!-- Add a date picker -->
+          <tr> 
+              <td> 
+                  Date: 
+              </td> 
+              <td> 
+                  <input type = "date"> 
+              </td> 
+          </tr> 
+          <!-- Add an input field for pin number -->
+         
+        </table> 
+        <!-- Add buttons to confirm payment and clear all inputs -->
+        <button type = "submit" class = "btn btn-primary">Confirm Payment</button> 
+        &nbsp; &nbsp; &nbsp; &nbsp; 
+        <button type = "reset" class = "btn btn-danger">Clear All Inputs</button> 
+      </form> 
+    </div>
+
+    <!-- Add the Bootstrap JavaScript file -->
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  </body> 
+</html> 

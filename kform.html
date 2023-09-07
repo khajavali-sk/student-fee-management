@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS IN HTML</title>
+<script src="jquery-3.6.3.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("input").focus(function(){
+      $(this).css("background-color","yellow");
+    });
+    $("input").blur(function(){
+      $(this).css("background-color","white");
+    });
+  });
+</script>
+<style>
+  
+fieldset{
+width: 600px;
+}
+</style>
+
+</head>
+<body>
+    <center> <H1>STUDENT REGISTRATION</H1> </CEnter>
+<center>
+    <FIeldset>
+        <LEgend align="center">STUDENTS DETAILS</LEgend>
+ 
+    <form>
+<table >      
+      <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+      </tr>
+         <tr>
+            <td> <label for="name" name="n" >NAME:</label></td>
+            <td> <input type="text" name="" id="NAME" placeholder="enter your name"> </td>
+          </tr>
+          <TR>
+            <TD> <LAbel NAME="P" for="PIN" >ENTER PIN:</LAbel> </TD>
+            <td> <input type="text" id="pin" placeholder="enter your pin" > </td>
+          </TR>
+          <tr>
+         
+          <tr>
+            <td> <label for="dob" name="birth day">DATE OF BIRTH:</label> </td>
+            <td> <INput type="date"></td>
+          </tr>
+          <tr>
+          <td><label for="GENDER">GENDER:</label></td>
+          <TD><INput TYPE="RADIO" NAME="GENDER" id="1"><LAbel for="1">MALE &nbsp; &nbsp;</LAbel><INPUT type="RADIO" NAME="GENDER" id="2"></INPUT><LABEL FOR="2">FEMALE&nbsp;&nbsp;</LABEL>
+          <INput type="radio" name="GENDER" id="3"><LAbel for="3">PREFER NOT TO SAY &nbsp; &nbsp;</LAbel></TD>
+        </tr>
+        <tr>
+          <TD> <LAbel NAME="cast" for="cast" >CAST:</LAbel> 
+             <td><input type="text" id="cast" placeholder="enter cast" >
+              &nbsp;&nbsp;
+             <input type="text" id="subcast" placeholder="enter sub-cast" > </td>
+
+        </tr>
+        <tr>
+          <td> <label for="yyyy" name="yyyy">YEAR OF ADMISSION:</label> </td>
+          <td> <INput type="number" id="yyyy" placeholder="YYYY"></td>
+        </tr>
+        <tr>
+          <td><label for="actype">ADMISSION TYPE:</label></td>
+          <TD><INput TYPE="RADIO" NAME="adtype" id="1"><LAbel for="1">spot &nbsp; &nbsp;</LAbel><INPUT type="RADIO" NAME="adtype" id="2"></INPUT><LABEL FOR="2">regular&nbsp;&nbsp;</LABEL></TD>
+        </tr>
+        <tr>
+          <TD><label for="transferred" >TRANSFERRED:</labeL>
+          </TD>
+          <TD><INPUt type="checkbox" id="transferred" NAME="transferred"></INPUt>
+            </TD>
+        </tr>
+        <TR>
+          <TD><LAbel for="COURSE"> CURRENT PERSUING YEAR: <LAbel></TD>
+          <TD> <SElect name="course">
+            <OPtion>1</OPtion>
+            <OPTIon>2</OPTIon>
+            <OPTIon>3</OPTIon>
+          </SElect></TD>
+        </TR>
+        
+          <TR>
+            <TD><LAbel for="COURSE"> COURSE: <LAbel></TD>
+            <TD> <SElect name="course">
+              <OPtion>CME</OPtion>
+              <OPTIon>ECE</OPTIon>
+            </SElect></TD>
+          </TR>
+          <tr>
+            <td> <label for="cno" name="cno" >CONTACT NUMBER:</label></td>
+            <td> <input type="number" name="" id="cno" placeholder="ph.NO"> </td>
+          </tr>
+          <tr>
+            <td> <label for="email" name="email" >NAME:</label></td>
+            <td> <input type="email" name="" id="email" placeholder="xyz@email.com"> </td>
+          </tr>
+         
+          
+         
+         
+          
+        </table>    
+            <input type="submit" value="register" name="register" >
+                     &nbsp;&nbsp; <input type="reset" value="reset"></td> 
+          
+
+        
+        </form>
+      
+    </FIeldset>
+    
+  </center>  
+</body>
+</html>

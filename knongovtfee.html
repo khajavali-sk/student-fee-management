@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fee Input Form</title>
+    <!-- Add the Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <br>
+    <br>
+    <br>
+    <center><button class="btn" style="background-color: green;"><a href="kgovtfee.html" target="f2" style="color:  white;">GOVT FEE PAYMENT</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class = "btn btn-primary" ><a href="knongovtfee.html" target="f2" style="color: white;">NON-GOVT FEE PAYMENT</a></button></center>
+    <div class="container">
+      <h1>Fee Input Form</h1>
+      <form>
+        <table class="table">
+          <!-- Add an input field for pin number at the top -->
+          <tr> 
+              <td> 
+                  Pin Number: 
+              </td> 
+              <td> 
+                  <input type = "text" placeholder = "21202-cm-025"> 
+              </td> 
+          </tr> 
+          <tr>
+            <td><label for="course-work-fee">Course Work Fee:</label></td>
+            <td><input type="number" class="form-control" id="course-work-fee" name="course-work-fee"></td>
+          </tr>
+          <tr>
+            <td><label for="games-fee">Games Fee:</label></td>
+            <td><input type="number" class="form-control" id="games-fee" name="games-fee"></td>
+          </tr>
+          <tr>
+            <td><label for="student-assignment-fee">Student Assignment Fee:</label></td>
+            <td><input type="number" class="form-control" id="student-assignment-fee" name="student-assignment-fee"></td>
+          </tr>
+          <tr>
+            <td><label for="laboratory-fee">Laboratory Fee:</label></td>
+            <td><input type="number" class="form-control" id="laboratory-fee" name="laboratory-fee"></td>
+          </tr>
+          <tr>
+            <td><label for="syllabus-book-fee">Syllabus Book Fee:</label></td>
+            <td><input type="number" class="form-control" id="syllabus-book-fee" name="syllabus-book-fee"></td>
+          </tr>
+          <tr>
+            <td><label for="br-fee-mis-per-year">BR Fee MIS Per Year:</label></td>
+            <td><input type="number" class="form-control" id="br-fee-mis-per-year" name="br-fee-mis-per-year"></td>
+          </tr>
+          <tr>
+            <td><label for="tech-fest-fee-per-year">Tech Fest Fee Per Year:</label></td>
+            <td><input type="number" class="form-control" id="tech-fest-fee-per-year" name="tech-fest-fee-per-year"></td>
+          </tr> 
+          <!-- Add a date picker -->
+          <tr> 
+              <td> 
+                  Date: 
+              </td> 
+              <td> 
+                  <input type = "date"> 
+              </td> 
+          </tr> 
+        </table> 
+        <!-- Add buttons to confirm payment and clear all inputs -->
+        <button type = "submit" class = "btn btn-primary">Confirm Payment</button> 
+                
+        <button type = "reset" class = "btn btn-danger">Clear All Inputs</button> 
+      </form> 
+    </div>
+
+    <!-- Add the Bootstrap JavaScript file -->
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  </body> 
+</html> 

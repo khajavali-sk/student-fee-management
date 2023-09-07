@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fees Table</title>
+    <!-- Add the Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fees Table</h1>
+      <!-- Add buttons to view history or search by pin -->
+      <button class="btn btn-primary"><a href="paymenthistory.html" style="color: white;">View History</a></button>
+      <button class="btn btn-primary"><a href="stupayment.html" target="f2" style="color: white;">Search by Pin</a></button>
+      <br><br>
+      <!-- Add options to sort by date range and year -->
+      <label for="date-range">Date Range:</label>
+      <input type="date" id="start-date">
+      to
+      <input type="date" id="end-date">
+      <br><br>
+      <label for="year">Year:</label>
+      <select id="year">
+        <option value="">--Select Year--</option>
+        <option value="1">1st Year</option>
+        <option value="2">2nd Year</option>
+        <option value="3">3rd Year</option>
+      </select>
+      <br><br>
+      <!-- Add a table to display fee information -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Pin</th>
+            <th>Amount</th>
+            <th>Receipt</th>
+            <th>Fee Type</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Add table rows here -->
+        </tbody>
+      </table> 
+    </div>
+
+    <!-- Add the Bootstrap JavaScript file -->
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  </body> 
+</html> 
